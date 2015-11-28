@@ -1,0 +1,29 @@
+/**
+ * App-wide Styles
+ */
+
+ .main-shell {
+   .profile-container {
+     height: 100%;
+     font-size: 14px;
+
+     .profile-name {
+       font-weight: 500;
+     }
+   }
+ }
+
+// Component styles are injected through grunt
+// injector
+@import 'account/login/login.scss';
+@import 'admin/admin.scss';
+@import 'main/main.scss';
+@import 'theme/layout.scss';
+// endinjector
+
+/**
+ * Font Settings
+ */
+ h1, h2, h3, h4, h5{
+     font-weight: 500;
+ }

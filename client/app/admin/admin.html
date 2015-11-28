@@ -1,0 +1,17 @@
+<!--<div ng-include="'components/navbar/navbar.html'"></div>-->
+<div ng-include="'components/shell/shell.html'"></div>
+
+<div class="container user-list">
+    <div class="zl-bumper">        
+        <h2>Admin Pages</h2>
+    </div>
+    <md-list ng-cloak>
+        <md-list-item ng-click="$state.go('users')">
+            <md-icon><i class="material-icons">people</i></md-icon>
+            <!--<i class="material-icons">people</i>-->
+            <p>Users</p>
+            
+        </md-list-item>
+        <md-divider ></md-divider>
+    </md-list>
+</div>

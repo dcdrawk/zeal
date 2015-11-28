@@ -1,0 +1,19 @@
+.trash { color:rgb(209, 91, 71); }
+
+// User List
+.user-list{
+	transition: width 1s;	
+	width:100%;
+	&.expanded{
+		width:50%;
+	}
+}
+
+//User info
+.user-info{
+	transition: width 1s;
+	width:0%;
+	&.expanded{
+		width:50%;
+	}
+}
